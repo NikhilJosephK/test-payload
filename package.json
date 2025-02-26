@@ -5,7 +5,6 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "postinstall": "npx payload generate-types",
     "migrate": "npx payload migrate",
     "prebuild": "npm run migrate",
     "build": "cross-env NODE_OPTIONS=--no-deprecation next build",
